@@ -3,7 +3,7 @@ from itertools import permutations
 string = input().strip()
 string = sorted( string )
 
-seenPermutations = set()
+seenPermutations = set()    
 
 for perm in permutations( string ) :
     permString = "".join( perm )
